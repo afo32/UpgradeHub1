@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+        min-height: 70px;
+        background-color: coral;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    @media screen and (min-width: 1200px){
+        display: flex;
+        flex-direction: row;
+        min-height: 90px;
+        background-color: coral;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    &_img {
+        height: 50px;
+        @media screen and (min-width:768px) {
+            height: 80px;
+        }
+        @media screen and (min-width:1200px) {
+            height: 120px;
+        }
+    }
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    @media screen and (min-width:768px) {
+        font-weight: 850;
+        padding-right: 10px;
+    }
+    @media screen and (min-width:1200px) {
+        font-weight: 950;
+        padding-right: 10px;
+    }
+}
+
+nav a:hover {
+    color: white;
+}
+

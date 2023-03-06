@@ -1,0 +1,21 @@
+.row {
+    $display: flex;
+    $flex-wrap: wrap;
+    $margin-right: -15px;
+    $margin-left: -15px;
+}
+
+.logo {
+    $flex: 0 0 16.66667%;
+    $max-width: 16.66667%;
+}
+
+.logo2 {
+    $background: url(/upgrade-portfolio/Pug-PNG-Images.png);
+    $background-repeat: no-repeat;
+    $background-size: contain;
+    $width: 100px;
+    $height: 100px;
+    $display: block;
+    $text-decoration: none!important;
+}

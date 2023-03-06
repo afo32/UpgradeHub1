@@ -1,0 +1,11 @@
+@mixin tablet ($width-card) {
+    @media (min-width: 768px) {
+        width: $width-card;
+    }
+}
+
+@mixin desktop ($width_card) {
+    @media (min-width: 1200px) {
+        width: $width_card;
+    }
+}

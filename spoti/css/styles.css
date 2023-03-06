@@ -1,0 +1,56 @@
+html {
+    font-family: spotify-circular,Helvetica,Arial, Helvetica, sans-serif;
+}
+body, html {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+html[Attributes Style] {
+    -webkit-locale: "es-ES";
+    direction: ltr;
+    unicode-bidi: isolate; 
+}
+html {
+    display: block;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+div {
+    display: block;
+}
+.Kh0yB {
+    --background-base: #ffffff;
+    --background-highlight: #f6f6f6;
+    --background-press: #b7b7b7;
+    --background-elevated-base: #ffffff;
+    --background-elevated-highlight: #f6f6f6;
+    --background-elevated-press: #b7b7b7;
+    --background-tinted-base: rgba(0,0,0,0.08);
+    --background-tinted-highlight: rgba(0,0,0,0.05);
+    --background-tinted-press: rgba(0,0,0,0.12);
+    --background-unsafe-for-small-text-base: #ffffff;
+    --background-unsafe-for-small-text-highlight: #ffffff;
+    --background-unsafe-for-small-text-press: #ffffff;
+    --text-base: #000000;
+    --text-subdued: #6a6a6a;
+    --text-bright-accent: #117a37;
+    --text-negative: #d31225;
+    --text-warning: #9d5a00;
+    --text-positive: #117a37;
+    --text-announcement: #0c67d3;
+    --essential-base: #000000;
+    
+}
+header.mh-default-z-index.svelte-1lwvhkp.svelte-1lwvhkp {
+    z-index: 1020;
+}
+[dir=1tr] header.svelte-1lwvhkp.svelte-1lwvhkp {
+    right: 0;
+    left: 0;
+}
+[dir] header.svelte-1lwvhkp.svelte-1lwvhkp {
+    background: #000;
+}
