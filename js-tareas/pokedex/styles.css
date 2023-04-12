@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(255, 8, 0);
+    margin: 0;
+    font-family: rubik;
+    color: yellow;
+  }
+  .container {
+    padding: 40px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 54px;
+  }
+  .number {
+    color: white;
+  }
+  .name {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: rgba(255, 208, 0, 0.925);
+    text-shadow: 20px 0px 7px rgb(7, 7, 7);
+  }
+  .type {
+    color: white;
+  }
+  /* .card {
+    list-style: none;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #222;
+    text-align: center;
+  }
+  .card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .card-subtitle {
+    font-weight: lighter;
+    color: #666;
+    margin-top: 5px;
+  }
+  .card-image {
+    height: 180px;
+  } */
+  #pokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+  }
+  /* .card:hover {
+    animation: bounce 0.5s linear;
+  }
+  @keyframes bounce {
+    20% {
+      transform: translateY(-6px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+    80% {
+      transform: translateY(-0px);
+    }
+  } */
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
